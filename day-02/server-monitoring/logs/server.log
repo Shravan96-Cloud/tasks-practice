@@ -1,0 +1,15 @@
+2026-10-23 09:00:01 INFO  [server] Server starting on port 8080
+2026-10-23 09:00:02 INFO  [config] Configuration loaded successfully
+2026-10-23 09:00:03 INFO  [database] Database connection established
+2026-10-23 09:00:05 INFO  [server] Application is ready to accept requests
+2026-10-23 09:01:12 INFO  [auth] User login successful user_id=1042
+2026-10-23 09:01:45 INFO  [http] GET /api/products status=200 duration=45ms
+2026-10-23 09:02:10 INFO  [http] POST /api/orders status=201 duration=120ms
+2026-10-23 09:03:15 WARNING [system] High memory usage detected memory=87%
+2026-10-23 09:03:40 INFO  [monitor] CPU usage within normal limits cpu=42%
+2026-10-23 09:04:05 INFO  [http] GET /health status=200 duration=8ms
+2026-10-23 09:04:30 WARNING [database] Database response time elevated duration=2500ms
+2026-10-23 09:05:12 ERROR [database] Database connection failed host=10.0.1.15 port=5432
+2026-10-23 09:05:13 ERROR [http] GET /api/orders status=503 duration=3002ms
+2026-10-23 09:05:15 INFO  [database] Reconnection attempt scheduled retry=1
+2026-10-23 09:05:20 INFO  [database] Database connection restored
